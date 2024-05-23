@@ -1,0 +1,12 @@
+{
+  "name": "backend-twitter",
+  "description": "this the backend of the twittter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "arvind",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  }
+}
