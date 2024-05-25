@@ -1,0 +1,12 @@
+{
+  "name": "cli-notes",
+  "version": "1.0.0",
+  "description": "this is a command line interface notes application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "arvind",
+  "license": "ISC"
+}
