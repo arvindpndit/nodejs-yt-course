@@ -8,5 +8,8 @@
     "dev": "node --watch index.js"
   },
   "author": "arvind",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
