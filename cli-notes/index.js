@@ -1,7 +1,10 @@
 const readline = require("readline");
-const createNote = require("./helper/createNote");
-const readNote = require("./helper/readNote");
-const deleteNote = require("./helper/deleteNote");
+const {
+  createNote,
+  readNote,
+  deleteNote,
+  getAllNotes,
+} = require("./helper/index.js");
 
 const showMenu = () => {
   const rl = readline.createInterface({
@@ -38,7 +41,8 @@ const showMenu = () => {
           rl.close();
           break;
         case "5":
-          console.log("Getting all NOtes");
+          getAllNotes();
+          rl.close();
           break;
         default:
           console.log("INVALID");
